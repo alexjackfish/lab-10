@@ -1,0 +1,127 @@
+/* Eric Meyer's CSS Reset */
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video { 
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+
+	display: block;
+}
+body {background-color: powderblue;
+
+}
+blockquote, q { 
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after { background-color: powderblue;
+	content: '';
+	content: none;
+}
+table { background-color: powderblue;
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+/* End of Eric Meyer's CSS Reset */
+
+article, aside, details, figcaption, figure, footer, header, hgroup, main, nav, section, summary { background-color: teal;
+	display: block;
+}
+body { 
+	font: 12px/18px Arial, sans-serif;
+}
+/* Begin of styles for the demo (you can remove them) */
+a.expand { 
+	width: 50%;
+	display: block;
+	margin: 50% ;
+}
+a.expand:hover { 
+	height: 50%;
+}
+/* End of of styles for the demo */
+.wrapper {
+	width: 100%;
+	min-width: 1000px;
+}
+
+
+/* Header
+-----------------------------------------------------------------------------*/
+.header {
+	height: 150px;
+	background: #FFE680;
+}
+
+
+/* Middle
+-----------------------------------------------------------------------------*/
+.middle {
+	position: relative;
+	background: #FFACAA;
+}
+.container {
+	background: #FFF;
+	margin-right: 250px;
+	border-right: 250px solid #B5E3FF;
+}
+.container:after {
+	display: table;
+	clear: both;
+	content: '';
+}
+.content {
+	float: left;
+	width: 100%;
+	position: relative;
+	overflow: hidden;
+}
+
+
+/* Left Sidebar
+-----------------------------------------------------------------------------*/
+.left-sidebar {
+	float: right;
+	margin-right: -250px;
+	width: 250px;
+	position: relative;
+	background: #B5E3FF;
+}
+
+
+/* Right Sidebar
+-----------------------------------------------------------------------------*/
+.right-sidebar {
+	float: right;
+	margin-right: -250px;
+	right: -250px;
+	width: 250px;
+	position: relative;
+	background: #FFACAA;
+}
+
+
+/* Footer
+-----------------------------------------------------------------------------*/
+.footer {
+	height: 100px;
+	background: #BFF08E;
+}
